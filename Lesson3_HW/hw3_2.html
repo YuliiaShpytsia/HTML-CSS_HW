@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Scroll</title>
+    <style>
+        html{
+            scroll-behavior: smooth;
+        }
+        body{
+            margin: 0;
+        }
+        section{
+            height: 100vh;
+        }
+        #yellow{
+            background-color: #c1fd43;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+        }
+        #blue{
+            background-color: skyblue;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+        }
+        #green{
+            background-color: limegreen;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+        }
+        div{
+            margin: 30px;
+        }
+        h2{
+            font-family: "Lucida Calligraphy", serif;
+            font-size: 40px;
+            text-align: center;
+        }
+        p{
+            font-family: "Lucida Calligraphy", serif;
+            text-align: center;
+        }
+        a{
+            font-size: 50px;
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+<section id="yellow">
+    <div>
+        <h2>Section Title</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit molestiae natus perferendis sequi temporibus vel. Ad, adipisci amet debitis eligendi esse est, expedita fuga impedit magni molestiae molestias neque officia perferendis perspiciatis quibusdam, quisquam sequi tenetur. Dignissimos dolorem nemo neque nulla odit. Consequuntur labore quisquam saepe similique. Ab enim saepe sequi ullam veniam! Cum earum eius ipsum nesciunt officia suscipit?</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam culpa eos molestias mollitia nihil quibusdam. Dicta exercitationem modi quasi quos totam? Atque ipsam laborum minima quae quis repellat saepe sint tenetur! Aut commodi cum fugiat incidunt labore nihil quibusdam vitae? Consectetur debitis excepturi laboriosam odio officiis quam rem repudiandae sequi.</p>
+    </div>
+    <div>
+        <a href="#blue">&#8659;</a>
+    </div>
+</section>
+<section id="blue">
+    <div>
+        <a href="#yellow">&#8657;</a>
+    </div>
+    <div>
+        <h2>Section Title</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit molestiae natus perferendis sequi temporibus vel. Ad, adipisci amet debitis eligendi esse est, expedita fuga impedit magni molestiae molestias neque officia perferendis perspiciatis quibusdam, quisquam sequi tenetur. Dignissimos dolorem nemo neque nulla odit. Consequuntur labore quisquam saepe similique. Ab enim saepe sequi ullam veniam! Cum earum eius ipsum nesciunt officia suscipit?</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam culpa eos molestias mollitia nihil quibusdam. Dicta exercitationem modi quasi quos totam? Atque ipsam laborum minima quae quis repellat saepe sint tenetur! Aut commodi cum fugiat incidunt labore nihil quibusdam vitae? Consectetur debitis excepturi laboriosam odio officiis quam rem repudiandae sequi.</p>
+    </div>
+    <div>
+        <a href="#green">&#8659;</a>
+    </div>
+</section>
+<section id="green">
+    <div>
+        <a href="#blue">&#8657;</a>
+    </div>
+    <div>
+        <h2>Section Title</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit molestiae natus perferendis sequi temporibus vel. Ad, adipisci amet debitis eligendi esse est, expedita fuga impedit magni molestiae molestias neque officia perferendis perspiciatis quibusdam, quisquam sequi tenetur. Dignissimos dolorem nemo neque nulla odit. Consequuntur labore quisquam saepe similique. Ab enim saepe sequi ullam veniam! Cum earum eius ipsum nesciunt officia suscipit?</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam culpa eos molestias mollitia nihil quibusdam. Dicta exercitationem modi quasi quos totam? Atque ipsam laborum minima quae quis repellat saepe sint tenetur! Aut commodi cum fugiat incidunt labore nihil quibusdam vitae? Consectetur debitis excepturi laboriosam odio officiis quam rem repudiandae sequi.</p>
+    </div>
+</section>
+</body>
+</html>
