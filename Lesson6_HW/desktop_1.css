@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+}
+header{
+    width: 100vw;
+    height: 30vh;
+    background-color: #191949;
+}
+div{
+    display: flex;
+}
+main{
+    width: 60vw;
+    height: 70vh;
+    background-color: #292950;
+
+}
+section{
+    width: 40vw;
+    height: 70vh;
+    background-color: darkslategrey;
+}
